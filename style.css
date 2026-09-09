@@ -5,6 +5,8 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: lightgrey;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 main {
@@ -54,4 +56,48 @@ h1 {
 
 .bg-color {
   align-self: center;
+}
+
+.bg-color > div {
+  margin-bottom: 50px;
+}
+
+.bg-color > div p span {
+  font-style: italic;
+}
+
+.form-bg {
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+
+label {
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+}
+
+input {
+  border: 1px solid #e5e7eb;
+}
+
+input:focus {
+  border: 1px solid blue;
+}
+
+#password:user-invalid,
+#confirm-password:user-invalid {
+  border: 1px solid red;
+}
+
+button {
+  color: #fff;
+  background-color: #596d48;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 7px;
+}
+
+form p a:link {
+  color: #596d48;
+  text-decoration: none;
 }
