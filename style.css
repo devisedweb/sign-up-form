@@ -62,7 +62,11 @@ h1 {
   margin-bottom: 50px;
 }
 
-.bg-color > div p span {
+.bg-color > div p {
+  font-size: 1.1rem;
+}
+
+span {
   font-style: italic;
 }
 
@@ -71,13 +75,23 @@ h1 {
   margin-bottom: 50px;
 }
 
+.form-row {
+  display: flex;
+  gap: 50px;
+}
+
 label {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   letter-spacing: 1px;
+  display: block;
 }
 
 input {
+  outline: none;
+  padding: 5px;
   border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  margin-bottom: 15px;
 }
 
 input:focus {
