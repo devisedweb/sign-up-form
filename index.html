@@ -42,28 +42,51 @@
           <div class="form-bg">
             <h2>Let's do this!</h2>
 
-            <label for="first-name">FIRST NAME</label>
-            <input type="text" name="first-name" id="first-name" />
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" name="first-name" id="first-name" />
+              </div>
 
-            <label for="last-name">LAST NAME</label>
-            <input type="text" name="last-name" id="last-name" />
+              <div class="form-group">
+                <label for="last-name">LAST NAME</label>
+                <input type="text" name="last-name" id="last-name" />
+              </div>
+            </div>
 
-            <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email" />
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" />
+              </div>
 
-            <label for="phone-number">PHONE NUMBER</label>
-            <input type="number" name="phone-number" id="phone-number" />
+              <div class="form-group">
+                <label for="phone-number">PHONE NUMBER</label>
+                <input type="number" name="phone-number" id="phone-number" />
+              </div>
+            </div>
 
-            <label for="password">PASSWORD</label>
-            <input type="password" name="password" id="password" min="6" />
+            <div class="form-row">
+              <div class="form-group">
+                <label for="password">PASSWORD</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  minlength="6"
+                />
+              </div>
 
-            <label for="confirm-password">CONFIRM PASSWORD</label>
-            <input
-              type="password"
-              name="confirm-password"
-              id="confirm-password"
-              min="6"
-            />
+              <div class="form-group">
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  name="confirm-password"
+                  id="confirm-password"
+                  minlength="6"
+                />
+              </div>
+            </div>
           </div>
 
           <button type="submit">Create Account</button>
